@@ -1,32 +1,32 @@
-Location
+#Location
 
-Link to paper/resource implemented
+##Link to paper/resource implemented
 https://spacy.io/api/entityrecognizer
 https://github.com/napsternxg/TwitterNER
 https://pypi.org/project/geotext/
 https://github.com/geopy/geopy
 
-Title of classifier
+##Title of classifier
 location_pipeline_MSI.py
 
-Fields it expects as input features
+##Fields it expects as input features
 twitter location field
 
-Documentation to recreate the classifier set up 
+##Documentation to recreate the classifier set up 
 
-#pip install pandas numpy SpaCy geotext geocoder uszipcode geopy
+-pip install pandas numpy SpaCy geotext geocoder uszipcode geopy
 (or install the same libraries with Conda or preferred env)
-SpaCy Setup
-python -m spacy download en_core_web_sm
-TWITTER NER Setup
+-SpaCy Setup
+-python -m spacy download en_core_web_sm
+-TWITTER NER Setup
 Create folder for twitter NER
 go to the linked repo above and clone the repo into the said folder
-follow instructions on repo for installation:
-pip install -r requirements.txt
-cd data
-wget http://nlp.stanford.edu/data/glove.twitter.27B.zip
-unzip glove.twitter.27B.zip
-cd ..
+-follow instructions on repo for installation:
+ -pip install -r requirements.txt
+ -cd data
+ -wget http://nlp.stanford.edu/data/glove.twitter.27B.zip
+ -unzip glove.twitter.27B.zip
+ -cd ..
 Running the pipeline:
 First configure the directory and location of the input and output. Ctrl+F the following variables, though they’re all together
 Configurable fields within the code
