@@ -87,7 +87,7 @@ The pipeline uses normal letter casing because it helps with twitter NER. It fir
 The pipeline uses 3 SpaCy libraries because using only one particular one yielded a high number of false negatives, but a blend of all 3 led to nearly no false negatives. Twitter NER was not used as it had worse results extracting names than the SpaCy combination. 
 	
 ## Related Classification Accuracy Results 
-![alt text](images/LocChart.PNG)
+![alt text](images/EthChart.PNG)
 
 
 
